@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark {
+  background-color: #1f2937;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+header ul {
+  justify-content: center;
+  flex: 1 1 50%;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 20px;
+}
+
+header ul li {
+  padding: 20px;
+}
+header h1 {
+  flex: 1 1 50%;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.first {
+  align-items: center;
+  padding: 25px;
+}
+.first div {
+  flex: 1 1 40%;
+  padding-right: 25px;
+}
+.first div h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+.first div p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.first img {
+  flex: 1 2 60%;
+  height: 180px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.second .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 75%;
+  padding: 25px;
+}
+
+.second .container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+}
+
+.second .container .content div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3882f6;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.quote {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quote div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.quoteText {
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thor {
+  align-self: flex-end;
+}
+
+.callToAction {
+  text-align: center;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  gap: 10px;
+  width: 50%;
+  align-self: center;
+  margin: 100px;
+}
+
+.callToAction h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
